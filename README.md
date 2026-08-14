@@ -201,8 +201,6 @@ if (operacao == 1) {
 
 Este projeto foi importante para colocar em prática vários conceitos que eu havia estudado separadamente.
 
-Principalmente:
-
 - Criar métodos para diferentes responsabilidades;
 - Passar valores através de parâmetros;
 - Utilizar `return` para devolver resultados;
