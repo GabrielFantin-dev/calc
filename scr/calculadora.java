@@ -52,6 +52,7 @@ public class calculadora {
 		System.out.println("3 - multiplicação");
 		System.out.println("4 - divisão");
 		System.out.println("==================");	
+		Sysem.out.println("Opção invalida!");
 		int operacao = entrada.nextInt();
 		
 		if (operacao == 1) {
