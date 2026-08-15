@@ -74,7 +74,7 @@ public class calculadora {
 			System.out.println("Deseja continuar? (s/n): ");
 			char s = entrada.next().charAt(0);
 			
-			if ( s == 's') {
+			if ( s == 'S') {
 				
 			}else {
 				System.out.println("A calculadora foi encerrada");
