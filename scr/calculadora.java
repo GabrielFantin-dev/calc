@@ -84,3 +84,14 @@ public class calculadora {
 		}
 	}
 }
+
+
+
+// public class ArrayEstudo {
+// 	private String[] senhas = {"abc", "acd", "123"};
+// 	public String[] retornaSenhas() {
+		
+// 		return senhas;
+// 	}
+// } Novo metodo a ser desenvolvido nesse programa.
+
