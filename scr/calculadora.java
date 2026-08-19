@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class calculadora {
 
+	public static String painel(String pa);
+	System.out.println("========================");	
+	System.out.prtinln("		Bem vindo!		");
+	System.out.println("========================");	
+
+	return pa;
+
 	public static int adição(int num1, int num2) {
 		int soma = num1 + num2;
 		
@@ -34,7 +41,9 @@ public class calculadora {
 		boolean rodando = true;
 		
 		while(rodando) {
-		
+			painel();
+
+
 		System.out.println("========================");	
 		System.out.println("Qual o primeiro numero?");
 		System.out.println("========================");	
