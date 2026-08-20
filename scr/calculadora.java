@@ -7,7 +7,6 @@ public class calculadora {
 	public static String painel(String pa);
 	System.out.println("========================");	
 	System.out.prtinln("		Bem vindo!		");
-	System.out.println("========================");	
 
 	return pa;
 
