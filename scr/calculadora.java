@@ -4,12 +4,6 @@ import java.util.Scanner;
 
 public class calculadora {
 
-	public static String painel(String pa);
-	System.out.println("========================");	
-	System.out.prtinln("		Bem vindo!		");
-
-	return pa;
-
 	public static int adição(int num1, int num2) {
 		int soma = num1 + num2;
 		
