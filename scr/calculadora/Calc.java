@@ -1,41 +1,15 @@
-package calc;
+package scr.calculadora;
 
 import java.util.Scanner;
 
-public class calculadora {
-
-	public static int adição(int num1, int num2) {
-		int soma = num1 + num2;
+public class Calc {
+    public static void main(String[] args) {
 		
-		return soma;
-	
-	}
-	
-	public static int subtração(int num1, int num2){
-		int menos = num1 - num2;
-		
-		return menos;
-	}
-	
-	public static int multiplicação(int num1,int num2) {
-		int vezes = num1 * num2;
-		
-		return vezes;
-	}
-	
-	public static double divisão(int num1, int num2) {
-		int dividir = num1 / num2;
-		return dividir;
-	}
-	
-	public static void main(String[] args) {
-		
+		Operadores op = new Operadores();
 		Scanner entrada = new Scanner(System.in);
 		boolean rodando = true;
 		
 		while(rodando) {
-			painel();
-
 
 		System.out.println("========================");	
 		System.out.println("Qual o primeiro numero?");
@@ -53,24 +27,22 @@ public class calculadora {
 		System.out.println("2 - Subtração");
 		System.out.println("3 - multiplicação");
 		System.out.println("4 - divisão");
-		System.out.println("==================");	
-		Sysem.out.println("Opção invalida!");
 		int operacao = entrada.nextInt();
 		
 		if (operacao == 1) {
-			int resultado = adição(num1, num2);
+			int resultado = op.adição(num1, num2);
 			System.out.println("Resultado: " + resultado);
 			
 		}else if(operacao == 2) {
-			int resultado = subtração(num1, num2);
+			int resultado = op.subtração(num1, num2);
 			System.out.println("Resultado: " + resultado);
 			
 		}else if (operacao == 3) {
-			int resultado = multiplicação(num1, num2);
+			int resultado = op.multiplicação(num1, num2);
 			System.out.println("Resultado: " + resultado);
 			
 		}else if (operacao == 4) {
-			double resultado = divisão(num1, num2);
+			double resultado = op.divisão(num1, num2);
 			System.out.println("Resultado: " + resultado);
 			
 		}
@@ -85,4 +57,6 @@ public class calculadora {
         }
 		}
 	}
-}
+
+	}
+
