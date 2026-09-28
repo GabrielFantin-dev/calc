@@ -51,12 +51,11 @@ public class Calc {
 			
 			if ( s == 'S') {
 				
-			}else {
+				}else {
 				System.out.println("A calculadora foi encerrada");
 				rodando = false;
-        }
+      	  }
 		}
 	}
 
-	}
-
+}
